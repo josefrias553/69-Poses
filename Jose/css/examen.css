@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    box-sizing: content-box;
+    background-color: bisque;
+}
+
+main{
+    position: relative;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 800px;
+    top: 100px;
+}
+
+.menu-1 ul{
+    position: fixed;
+    padding: 20px;
+    background: blanchedalmond;
+    text-align: center;
+    font-size: 50px;
+    width: 200vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px burlywood;
+}
+
+.menu-1 ul>a{
+    color: black;
+}
+
+.menu-1 ul>a:hover{
+    color: white;
+}
+
+.menu-1 ul:hover{
+    background: burlywood;
+}
+
+
+.container-1{
+    height: auto;
+    width: 20%;
+    float: left;
+    margin: 10px;
+    background: bisque;
+}
+
+.container-1 img{
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px burlywood;
+}
+
+.container-2{
+    height: 72vh;
+    width: 50%;
+    float: left;
+    margin: 10px;
+    background: blanchedalmond;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px burlywood;
+}
+
+.container-2 h1{
+    text-align: center;
+    font-size: 25px;
+}
+.container-2 p{
+    font-size: 16px;
+}
+
+.container-3{
+    height: 80vh;
+    width: 20%;
+    overflow-y: scroll;
+    margin: 10px;
+    background: blanchedalmond;
+    right: 0;
+    float: left;
+    font-size: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px burlywood;
+}
+
+.container-3 li:hover{
+    background-color: white;
+    opacity: 50%;
+}
+
+.container-3::-webkit-scrollbar{
+    background-color: transparent;
+}
